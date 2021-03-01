@@ -30,3 +30,14 @@ if  ( valor > 20){
 } else {
     console.log('valor menor ou igual a 20');
 }
+ // Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+
+ let maiorNumero = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {   
+    if(numbers[index] > maiorNumero) {
+        maiorNumero = numbers[index];
+    } 
+}
+console.log(maiorNumero);
+
